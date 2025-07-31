@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #190d28;
+  --card: #24183a;
+  --secondary-font: #00b2ff;
+  --font: #dbd8e3;
+}
+
+.skills {
+  @apply flex justify-center items-center flex-col cursor-pointer;
+  @apply hover:scale-110 duration-150 hover:text-(--secondary-font);
+}
+
+.skills p {
+  @apply py-3;
+}
